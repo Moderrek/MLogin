@@ -1,0 +1,13 @@
+name: MLogin
+version: ${project.version}
+main: pl.moderr.mlogin.MLogin
+api-version: 1.16
+load: STARTUP
+authors: [ MODERR ]
+description: Logowanie stworzone przez Moderra
+website: https://moderr.pl
+commands:
+  zarejestruj:
+    aliases: [register,reg]
+  zaloguj:
+    aliases: [login]
